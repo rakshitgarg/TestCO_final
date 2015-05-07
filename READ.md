@@ -1,2 +1,0 @@
-# TestCO
-TESTCO is software, which provides an online platform for conducting exams for popular examinations. The software is to be utilized and customized by the educational institute in accordance with their own syllabus. These tests include questions which are of paragraphical and pictorial nature along with the regular objective type questions. Students will be evaluated by humans for some of the questions, whilst the objective type of question will be done through computer based validation.
