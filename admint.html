@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html> 
+  <head> 
+    <title>TESTCO Template</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--Required JS scripts -->
+    <!-- Jquery -->
+     <script src="jquery.js"></script>
+    <!-- Bootstrap -->
+    <link href="bootflat/bootstrap/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="bootflat/css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="bootflat/css/bootflat.css" rel="stylesheet" media="screen">
+    <link href="bootflat/css/bootflat-extensions.css" rel="stylesheet" media="screen">
+    <link href="bootflat/css/bootflat-square.css" rel="stylesheet" media="screen">
+    <script src="js/index.js"></script> 
+	<script src="js/profiles.js"></script> 
+	<script>
+	function valpage(theURL){
+		$("#content").load(theURL);
+	}
+	function contripage(theURL){
+		$("#content").load(theURL);
+	}
+	function evalspage(theURL){
+		$("#content").load(theURL);
+		}
+	
+	function studspage(theURL){
+		$("#content").load(theURL);
+		}
+		
+	</script>
+
+    <!-- Required CSS Scripts -->
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+  </head> 
+
+  <body onload="allEvents(); loadProfiles()"> 
+     <div id="header"></div>
+
+     <div id="zabody">
+	 <div class="container">
+		<!--place your stuff here-->
+		<header>
+		<div class="wrapper">
+			<style>
+			h2 {color:Black;font-size:40px; background-color:white}
+			h1 {color:Black; background-color:white}
+			
+			</style>
+			<body style="background-color:white;">
+			<h2>ADMINISTRATOR</h2>
+			</div>
+	</header>
+
+<div class="panel">
+              <ul id="myTab1" class="nav nav-tabs nav-justified">
+                <li class="section-first"><a href="http://localhost/TESTCO/admint.html">HomePage</a></li>
+                <li onclick="studspage('studlist.html');"><a data-toggle="tab">Student</a></li>
+                <li onclick="contripage('contrilist.html');"><a data-toggle="tab">Contributor</a></li>
+				<li onclick="evalspage('evalulist.html');" ><a data-toggle="tab">Evaluator</a></li>
+				<li onclick="valpage('valilist.html');"><a data-toggle="tab">Validator</a></li>
+				<li><a href="#profile1" data-toggle="tab">Question Bank</a></li>
+              </ul>
+			  <br><br>
+              <div id="content" class="clearfix">
+		<section id="left">
+			<div id="userStats" class="clearfix">
+				<div class="pic">
+					<a href="#"><img id = "image" src="authors\defaultprofileimage.png" height="150" /></a>
+			
+				</div>
+				
+				<div class="data">
+					<h1 id = "name">Mansi</h1>
+					<h3 id = "place">India</h3>
+					<h4><a href="http://www.myurl.com"</a></h4>
+					<div class="socialMediaLinks">
+				<a href="https://www.facebook.com/mansi.perky" rel="me" target="_blank"><img src="" /></a>
+					</div>
+					<div class="sep"></div>
+					
+				</div>
+			</div>
+			
+			<h1>About Me:</h1>
+			<p id = "about">
+			   Age:             21<br>
+			   Education:       asdfa University<br>
+			   Current Employer: Inc,CA<br>
+			   Email:           mansi@gmail.com<br>
+			   Degree:          jshfsd qwuaisd tyues<br>
+			   Projects:        askdf usidha <br>
+			   </p>
+		</section>
+		</div>
+	 </div>
+	 </div>
+	<div id="footer"></div>
+
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="bootflat/js/bootstrap.min.js"></script>
+  </body> 
+</html>
